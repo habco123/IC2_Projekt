@@ -2,9 +2,8 @@
 Projekt ma za ulohu logovat terminal pouzivatelov. Script loguje commandy do csv suboru a pomocou SSH ho posiela na vzdialeny server
 ## Bash script
 Pre spravne fungovanie je nutne pridat script do nastaveni bash.
-Do subor /etc/bash.bashrc pridaj
-
-```
+Na koniec suboru /etc/bash.bashrc pridaj
+```bash
 LOGFILE="/var/log/command_log.csv"
 
 log_command() {
