@@ -17,7 +17,8 @@ log_command() {
 
 PROMPT_COMMAND='history -a >(tail -n 1 | log_command)'
 ```
-
+## Kniznica Paramiko
+Python script pouziva kniznicu [paramiko](https://www.paramiko.org/) ktora implementuje SSH v pythone.
 ## How to run 
 
 Script spustime prikazom.
