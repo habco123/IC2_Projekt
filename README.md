@@ -17,7 +17,6 @@ log_command() {
 
 PROMPT_COMMAND='history -a >(tail -n 1 | log_command)'
 ```
-
 ##How to run 
 Script spustime prikazom.
 ```bash
